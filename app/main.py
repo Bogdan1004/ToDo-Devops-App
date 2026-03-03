@@ -4,7 +4,7 @@ import psycopg2
 import os
 from typing import List
 
-app = FastAPI(title="Todo App - DevOps Level Up")
+app = FastAPI(title="Todo App - DevOps Level Up Argocd")
 
 def get_db():
     return psycopg2.connect(
