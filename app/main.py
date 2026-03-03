@@ -39,7 +39,7 @@ class Todo(BaseModel):
 
 @app.get("/")
 def root():
-    return {"status": "ok", "app": "Todo DevOps Level Up"}
+    return {"status": "ok", "app": "Todo DevOps Level Up ArgoCD "}
 
 @app.get("/todos")
 def list_todos():
