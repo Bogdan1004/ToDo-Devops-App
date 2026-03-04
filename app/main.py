@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import psycopg2
 import os
 
-app = FastAPI(title="Todo App - DevOps Level Up")
+app = FastAPI(title="Todo App - DevOps Level Up Endava")
 
 def get_db():
     return psycopg2.connect(
