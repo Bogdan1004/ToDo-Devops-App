@@ -166,7 +166,7 @@ def root():
 <body>
   <div class="container">
     <h1>📋 Todo App</h1>
-    <span class="badge">🚀 DevOps Level Up — GitOps Pipeline</span>
+    <span class="badge">🚀 DevOps Level Up GitOps</span>
     <div class="input-row">
       <input type="text" id="new-todo" placeholder="Adauga un task nou..." onkeydown="if(event.key==='Enter') addTodo()">
       <button class="add-btn" onclick="addTodo()">＋ Add</button>
